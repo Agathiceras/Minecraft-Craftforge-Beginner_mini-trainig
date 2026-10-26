@@ -1,9 +1,8 @@
 /* ============================================================
-   EM course training · Minecraft CraftForge Beginner [2226 · ENG] · ARABIC (RTL) · Modern Standard Arabic (GCC)
+   EM course training · Minecraft CraftForge Beginner [2243 · ENG] · ARABIC (RTL) · Modern Standard Arabic (GCC)
    Translated from content-en.js. Translate only the text inside quotes / backticks. Keep HTML tags, {placeholders},
    keys (t:, id:, a:…), links, file names, commands and the 'yes' / 'no' answer keys unchanged.
    The Backoffice link changes by region (see COURSE.code and the 'bo' section).
-   TODO: replace the Backoffice code and link (2226 / 2227) with the Arabic (GCC) course when it exists.
    ============================================================ */
 window.COURSE = { lang: 'ar', dir: 'rtl' };
 
@@ -66,12 +65,12 @@ COURSE.ui = {
 
 /* ---------------- Course ---------------- */
 COURSE.id = 'mcbeg';
-COURSE.code = '2226';
+COURSE.code = '2243';
 COURSE.title = 'Minecraft CraftForge Beginner';
 COURSE.color = '#16A34A';
 
 COURSE.home = {
-  kicker: '🎓 تدريب الدورة · [2226]',
+  kicker: '🎓 تدريب الدورة · [2243]',
   title: 'Minecraft CraftForge <span class="hl">Beginner</span>',
   lead: 'للطلاب من عمر 8 إلى 9 سنوات: في Minecraft ينتقلون من لاعبين إلى صنّاع — يصنعون بطلهم وبيتهم، وآليات ريدستون، وروبوتًا مساعدًا يبرمجونه بلغة Lua. وحدتان: محتوى الدورة والجانب التقني للدروس.',
   facts: [
@@ -145,7 +144,7 @@ COURSE.modules = [
       ]},
       { id:'bo', e:'📘', title:'راجع الدروس في Backoffice', blocks:[
         { t:'p', html:'قبل الاختبار، افتح الدورة في Backoffice واقرأ الدروس الأربعة بالسرعة التي تناسبك — بطاقات الأنشطة وملاحظات المعلم كلها موجودة هناك. لا يوجد وقت محدّد.' },
-        { t:'link', href:'https://bo.kodland.org/courses/2226', e:'📘', title:'افتح الدورة في Backoffice', small:'[2226] Minecraft CraftForge Beginner — الدروس وملاحظات المعلم الخاصة بها' },
+        { t:'link', href:'https://bo.kodland.org/courses/2243', e:'📘', title:'افتح الدورة في Backoffice', small:'[2243] Minecraft CraftForge Beginner — الدروس وملاحظات المعلم الخاصة بها' },
         { t:'callout', kind:'warn', e:'🔄', html:'سيستمر تحديث محتوى الدروس في Backoffice بناءً على آراء الطلاب والمعلمين. كلما تغيّر شيء، سيتم إبلاغك مسبقًا لتتمكّن من التحضير للدرس.' }
       ]}
     ]},
