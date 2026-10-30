@@ -72,7 +72,7 @@ COURSE.color = '#16A34A';
 COURSE.home = {
   kicker: '🎓 Formazione sul corso · [2240]',
   title: 'Minecraft CraftForge <span class="hl">Beginner</span>',
-  lead: 'Per studenti di 8–9 anni: in Minecraft passano da giocatori a creatori: creano il proprio eroe e la propria casa, costruiscono meccanismi di redstone e programmano in Lua un robot Assistente. Due moduli: i contenuti del corso e gli aspetti tecnici delle lezioni.',
+  lead: 'Per studenti di 8–9 anni, che in Minecraft passano da giocatori a creatori: creano il proprio eroe e la propria casa, costruiscono meccanismi di redstone e programmano in Lua un robot Assistente. Due moduli: i contenuti del corso e gli aspetti tecnici delle lezioni.',
   facts: [
     ['🧑‍💻', '<b>Procedi al tuo ritmo.</b> I tuoi progressi vengono salvati in questo browser. Ogni modulo termina con una breve verifica.'],
     ['⚡', '<b>Con attività pratiche.</b> Una simulazione di Kodland Sparks per esercitarti a pubblicare una costruzione Minecraft e a risolvere il problema più comune.']
@@ -82,7 +82,7 @@ COURSE.home = {
 /* Notes shown at the top of the home page */
 COURSE.notes = [
   { kind:'pink', e:'🧭', html:'<b>Prima di iniziare:</b> completa la <b>formazione principale sul nuovo modello educativo (EM)</b>. Questa formazione sul corso viene dopo e si basa su ciò che hai visto lì: Backoffice e le note per il tutor (Teacher Notes), Classroom con Follow Mode, il tour di Kodland Sparks e la qualità della lezione.' },
-  { kind:'warn', e:'🔄', html:'<b>I contenuti delle lezioni in Backoffice vengono aggiornati continuamente.</b> Le lezioni migliorano costantemente grazie al feedback di studenti e tutor. Niente paura: ogni volta che qualcosa cambia, riceverai un avviso in anticipo per preparare la lezione.' }
+  { kind:'warn', e:'🔄', html:'<b>I contenuti delle lezioni in Backoffice vengono aggiornati continuamente.</b> Le lezioni migliorano grazie al feedback di studenti e tutor. Niente paura: ogni volta che qualcosa cambia, riceverai un avviso in anticipo per preparare la lezione.' }
 ];
 
 /* ---------------- Modules ---------------- */
@@ -97,7 +97,7 @@ COURSE.modules = [
         { t:'trio', items:[
           ['🎬','Prima il risultato','Apri ogni lezione mostrando il risultato finale e dicendo che cosa impareranno gli studenti. Poi mostri il percorso sul tuo schermo e li guidi un passo alla volta.'],
           ['🛠️','Da giocatore a creatore','In un gioco, le regole le ha fatte qualcun altro. Qui lo studente costruisce, programma un robot, crea meccanismi — e mostra il risultato agli altri.'],
-          ['🔍','Gli errori fanno parte del percorso','Quando qualcosa non funziona: <i>Che cosa vedo? Perché succede? Che cosa provo? Ha funzionato?</i> Alcune lezioni prevedono un errore pianificato sul tuo schermo, perché gli studenti ne trovino da soli la causa.']
+          ['🔍','Gli errori fanno parte del percorso','Quando qualcosa non funziona: <i>Che cosa vedo? Perché succede? Che cosa provo? Ha funzionato?</i> Alcune lezioni prevedono un errore voluto sul tuo schermo, perché gli studenti ne trovino da soli la causa.']
         ]},
         { t:'callout', kind:'good', e:'⚡', html:'Gli studenti pubblicano i loro lavori su <b>Kodland Sparks</b>, il loro portfolio, fin dalla Lezione 1. <b>Sparks AI</b> propone idee e feedback, ma è lo studente a decidere che cosa usare.' }
       ]},
@@ -118,7 +118,7 @@ COURSE.modules = [
           { tab:'M1L1', e:'🔥', h:'Lezione 1 — Primo fuoco', p:'La prima lezione del corso (7 schede più i compiti). Gli studenti avviano il launcher, conoscono il gruppo, disegnano e pubblicano la propria skin su Sparks, la indossano per entrare nel mondo e iniziano a costruire la propria casa su un’isola.',
             acc:[['📚','Che cosa devi sapere','<ul><li>Il percorso: collegamento e launcher → che cosa ci aspetta → skin su Sparks mentre il launcher scarica il gioco → indossare la skin, entrare nel mondo e teletrasportarsi sull’isola → costruire la casa → presentazione dei progetti → riepilogo e compiti.</li><li>Lo <b>studio delle skin</b> si apre direttamente nella scheda della lezione (pulsante <b>Expand</b> per lo schermo intero). Lo studente non deve uscire dalla lezione per andare su Sparks.</li><li>Nel launcher: <b>Create → Skins → la propria skin → Wear</b>, poi <b>Play</b> con il codice del mondo, e <b>F5</b> per vedersi in terza persona.</li><li>Gli studenti costruiscono in <b>modalità creativa</b>: muri, un ingresso e un cartello con il proprio nickname. Il tetto si costruisce a casa, come compito.</li></ul>'],
                  ['🎯','Risultato chiave','<ul><li>🏁 La skin è <b>pubblicata su Sparks e il suo link è nella scheda della lezione</b>. Tutti devono arrivarci entro il minuto 29 circa; questa fase non si accorcia mai.</li><li>Ogni studente entra nel mondo con la propria skin e si trova sull’isola.</li><li>La casa ha muri, un ingresso e un cartello con il nickname.</li></ul>'],
-                 ['🧑‍🏫','Il tuo ruolo','<ul><li>Presentati e fai conoscenza con il gruppo: dai la parola a tutti e usa i nomi per tutta la lezione.</li><li>Di’ ad alta voce l’obiettivo della lezione: «Oggi ognuno di voi creerà la propria skin e tutti vi riconosceranno nel mondo di gioco».</li><li>Chiedi: «In che cosa creare è diverso dal semplice giocare?» — in un gioco le regole le ha fatte qualcun altro; qui crei tu e mostri il risultato agli altri.</li><li><b>Errore pianificato, solo sul tuo schermo:</b> entra nel mondo senza premere <b>Wear</b> → sei uguale a tutti gli altri. Chiedi perché, poi correggi. Così, quando tocca a loro, gli studenti lo fanno subito nel modo giusto.</li></ul>'],
+                 ['🧑‍🏫','Il tuo ruolo','<ul><li>Presentati e fai conoscenza con il gruppo: dai la parola a tutti e usa i nomi per tutta la lezione.</li><li>Di’ ad alta voce l’obiettivo della lezione: «Oggi ognuno di voi creerà la propria skin e tutti vi riconosceranno nel mondo di gioco».</li><li>Chiedi: «In che cosa creare è diverso dal semplice giocare?» — in un gioco le regole le ha fatte qualcun altro; qui crei tu e mostri il risultato agli altri.</li><li><b>Errore voluto, solo sul tuo schermo:</b> entra nel mondo senza premere <b>Wear</b> → sei uguale a tutti gli altri. Chiedi perché, poi correggi. Così, quando tocca a loro, gli studenti lo fanno subito nel modo giusto.</li></ul>'],
                  ['📌','Attenzione','<ul><li>Nella L1 è molto probabile che a qualcuno il launcher non parta. La skin si disegna nel browser, quindi lo studente continua a lavorare mentre tu sistemi il launcher durante il lavoro autonomo.</li><li><b>Esc</b> non funziona dentro lo studio a schermo intero: usa il pulsante <b>Collapse</b> in alto.</li><li>Il disegno rischia di non finire mai: «Deve essere tua, non perfetta. Puoi finirla a casa».</li><li>Controlla in Backoffice che i link siano arrivati davvero, non solo che siano stati mostrati sullo schermo.</li></ul>'],
                  ['⚙️','Aspetti tecnici','<ul><li>Il giorno prima, invia i link del launcher nella chat del gruppo e chiedi agli studenti di installarlo in anticipo.</li><li>Fai tu, in prima persona, tutto il percorso: skin su Sparks → pubblicazione → Skins → Wear → entrare nel mondo con il codice → teletrasporto sull’isola.</li><li>Codice del mondo: <b>Welcome to CraftForge</b> (scheda Play). Il comando di teletrasporto è nelle note per il tutor e nella scheda.</li><li>Compiti: finire la casa, mostrare uno screenshot all’assistente IA integrato nella scheda dei compiti e consegnare lo screenshot con una frase.</li></ul>']] },
         ]},
@@ -135,7 +135,7 @@ COURSE.modules = [
     desc:'Il Kodland Launcher, un buon inizio, la pubblicazione su Sparks e i problemi più comuni.',
     obj:'Scoprire che cosa fa funzionare tecnicamente una lezione di Minecraft CraftForge: il Kodland Launcher, il controllo del launcher prima dei contenuti, gli ultimi minuti per pubblicare e mostrare i lavori, dove gli studenti trovano il link al proprio progetto e le soluzioni ai problemi più comuni.',
     needs:['mcPublish'],
-    offer:[['🟩','Scaricare, installare il Kodland Launcher e accedere.'],['🚀','Fare il controllo del launcher prima dei contenuti e iniziare dal risultato.'],['📤','Assicurarti che ogni studente pubblichi su Sparks e invii il link.'],['🛠️','Risolvere i problemi più comuni del launcher e di Minecraft.']],
+    offer:[['🟩','Scaricare e installare il Kodland Launcher ed effettuare l’accesso.'],['🚀','Fare il controllo del launcher prima dei contenuti e iniziare dal risultato.'],['📤','Assicurarti che ogni studente pubblichi su Sparks e invii il link.'],['🛠️','Risolvere i problemi più comuni del launcher e di Minecraft.']],
     sections:[
       { id:'focus', e:'🎯', title:'I 3 punti che fanno funzionare una lezione', blocks:[
         { t:'p', html:'Sono le priorità fissate dal team di prodotto per i corsi di Minecraft. Aprile una alla volta:' },
@@ -165,7 +165,7 @@ COURSE.modules = [
         ]}
       ]},
       { id:'l1', e:'🧯', title:'Quando il launcher di uno studente non funziona', blocks:[
-        { t:'p', html:'Nella Lezione 1, il launcher di qualcuno quasi sicuramente non partirà. È normale: <b>prima dai un compito agli altri</b>, poi collegati con lo studente. Chiedigli di condividere lo schermo e guidalo a voce: «Che cosa vedi adesso? Clicca su questo pulsante». Se il problema non si risolve in un paio di minuti: «Per ora segui il mio schermo, torno da te tra poco».' },
+        { t:'p', html:'Nella Lezione 1 è molto probabile che a qualcuno il launcher non parta. È normale: <b>prima dai un compito agli altri</b>, poi collegati con lo studente. Chiedigli di condividere lo schermo e guidalo a voce: «Che cosa vedi adesso? Clicca su questo pulsante». Se il problema non si risolve in un paio di minuti: «Per ora segui il mio schermo, torno da te tra poco».' },
         { t:'acc', open:false, items:[
           ['📥','Il file non si scarica','Invia di nuovo in chat il link della scheda e controlla che lo studente abbia scelto il file per il suo sistema.'],
           ['🍎','Il Mac non apre il launcher','Esegui la riga del Terminal indicata nella sezione «Il Kodland Launcher» e apri di nuovo il launcher da <b>Applications</b>.'],
@@ -177,12 +177,12 @@ COURSE.modules = [
         { t:'callout', kind:'tip', e:'💡', html:'Se più studenti hanno lo stesso errore, mostra la soluzione a tutti una volta sola.' }
       ]},
       { id:'req', e:'💻', title:'Requisiti del computer', blocks:[
-        { t:'p', html:'Ecco che cosa serve a uno studente per Minecraft CraftForge. È utile quando uno studente ha problemi a installare o avviare il gioco:' },
+        { t:'p', html:'Ecco che cosa serve a uno studente per Minecraft CraftForge. Ti sarà utile quando uno studente ha problemi a installare o avviare il gioco:' },
         { t:'cards', cols:2, items:[
           ['🖥️','Computer e sistema','Computer fisso o portatile con <b>Windows 10/11 (64 bit)</b> o <b>macOS 13 o successivo</b>. Mac: solo Apple Silicon (M1 o più recente).'],
           ['🧠','Memoria e processore','<b>8 GB di RAM</b> con scheda grafica dedicata, oppure <b>12 GB</b> con grafica integrata. Un processore <b>quad-core</b>.'],
           ['🎮','Grafica e disco','Una scheda grafica che supporti <b>Vulkan 1.3</b> e <b>2 GB</b> di memoria video. <b>5 GB</b> di spazio libero su disco.'],
-          ['🎧','Connessione e dotazione','Una connessione internet stabile, adatta alle videochiamate. Un mouse a due tasti, tastiera, cuffie con microfono e videocamera.']
+          ['🎧','Connessione e dotazione','Una connessione internet stabile, adatta alle videochiamate. Un mouse a due tasti, una tastiera, cuffie con microfono e una videocamera.']
         ]}
       ]},
       { id:'publish', e:'📤', title:'Pubblicare su Kodland Sparks', blocks:[
@@ -232,8 +232,8 @@ COURSE.quiz = {
       o:['Con la teoria sulla redstone prima che qualcuno entri nel mondo.','Mostrando il risultato finale, dicendo l’obiettivo e spiegando perché creare è diverso dal semplice giocare.','Facendo iniziare subito gli studenti a costruire, senza mostrare un esempio.'],
       a:1, e:'Prima il risultato: gli studenti vedono dove stanno andando e perché creare è diverso dal giocare.' },
     { q:'Che cosa ottiene lo studente alla fine del corso?',
-      o:['Un esame finale scritto.','Più di nove progetti nel suo portfolio di Kodland Sparks e un progetto finale — la sua terra, presentata al gruppo.','Solo la casa della Lezione 1.'],
-      a:1, e:'Più di nove progetti nel portfolio e un progetto finale in cui costruzioni, meccanismi e programmi funzionano insieme.' },
+      o:['Un esame finale scritto.','Oltre nove progetti nel suo portfolio di Kodland Sparks e un progetto finale — la sua terra, presentata al gruppo.','Solo la casa della Lezione 1.'],
+      a:1, e:'Oltre nove progetti nel portfolio e un progetto finale in cui costruzioni, meccanismi e programmi funzionano insieme.' },
     { q:'Qual è il ruolo di Sparks AI nelle lezioni?',
       o:['Realizza il progetto al posto dello studente.','Propone idee e feedback; è lo studente a decidere che cosa usare.','Valuta la lezione al posto del tutor.'],
       a:1, e:'Sparks AI propone, lo studente decide — di solito una richiesta per lezione.' }
@@ -261,9 +261,9 @@ COURSE.quiz = {
 /* ---------------- Final page ---------------- */
 COURSE.done = {
   title: 'Moduli completati!',
-  html: `<p>Ci sei quasi! Torna alla pagina della formazione su LMS da cui hai aperto questo percorso. Il test DST si trova subito sotto la formazione.</p>
+  html: `<p>Ci sei quasi! Torna alla pagina della formazione sull’LMS da cui hai aperto questo percorso. Il test DST si trova subito sotto la formazione.</p>
     <p>👉 <b>Per completare con successo la formazione devi svolgere e superare il test DST.</b> Se non svolgi il test DST, la formazione resterà incompleta e potrebbe scadere.</p>
-    <p>Il punteggio minimo per superarlo è <b>80%</b>.</p>
+    <p>Il punteggio minimo per superarlo è l’<b>80%</b>.</p>
     <p>Buona fortuna! ❤️</p>`,
   nexts: [
     ['📒', '<b>Prima di ogni lezione:</b> leggi le note per il tutor in Backoffice e fai il percorso della lezione nel launcher.'],
