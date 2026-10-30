@@ -90,7 +90,7 @@ COURSE.modules = [
   { id:'m1', n:1, e:'⛏️', color:'#16A34A', title:'I contenuti del corso',
     desc:'Le informazioni generali sul corso, che cosa ottiene lo studente e la prima lezione del Modulo 1 del corso.',
     obj:'Prepararti a tenere la prima lezione di Minecraft CraftForge Beginner. In questa lezione, gli studenti di 8–9 anni creano la propria skin, la pubblicano su Kodland Sparks, entrano con la skin nel mondo del corso e iniziano a costruire la propria casa.',
-    offer:[['🧱','Conoscere le informazioni generali sul corso e che cosa ottiene lo studente.'],['📖','Sapere che cosa succede nella prima lezione.'],['🤖','Capire come si usano il robot Assistente e Sparks AI.'],['📘','Leggere la prima lezione e le relative note per il tutor in Backoffice.']],
+    offer:[['🧱','Conoscere le informazioni generali sul corso e che cosa ottiene lo studente.'],['📖','Sapere che cosa succede nella prima lezione.'],['🤖','Capire come si usa Sparks AI.'],['📘','Leggere la prima lezione e le relative note per il tutor in Backoffice.']],
     sections:[
       { id:'ov', e:'🧱', title:'Il corso', blocks:[
         { t:'meta', items:[['🧒','Età','8–9 anni'],['⏱️','Lezione','60 min'],['📚','Programma','40 lezioni · 10 moduli'],['🌙','Linguaggio','Lua']] },
@@ -120,7 +120,7 @@ COURSE.modules = [
                  ['🎯','Risultato chiave','<ul><li>🏁 La skin è <b>pubblicata su Sparks e il suo link è nella scheda della lezione</b>. Tutti devono arrivarci entro il minuto 29 circa; questa fase non si accorcia mai.</li><li>Ogni studente entra nel mondo con la propria skin e si trova sull’isola.</li><li>La casa ha muri, un ingresso e un cartello con il nickname.</li></ul>'],
                  ['🧑‍🏫','Il tuo ruolo','<ul><li>Presentati e fai conoscenza con il gruppo: dai la parola a tutti e usa i nomi per tutta la lezione.</li><li>Di’ ad alta voce l’obiettivo della lezione: «Oggi ognuno di voi creerà la propria skin e tutti vi riconosceranno nel mondo di gioco».</li><li>Chiedi: «In che cosa creare è diverso dal semplice giocare?» — in un gioco le regole le ha fatte qualcun altro; qui crei tu e mostri il risultato agli altri.</li><li><b>Errore voluto, solo sul tuo schermo:</b> entra nel mondo senza premere <b>Wear</b> → sei uguale a tutti gli altri. Chiedi perché, poi correggi. Così, quando tocca a loro, gli studenti lo fanno subito nel modo giusto.</li></ul>'],
                  ['📌','Attenzione','<ul><li>Nella L1 è molto probabile che a qualcuno il launcher non parta. La skin si disegna nel browser, quindi lo studente continua a lavorare mentre tu sistemi il launcher durante il lavoro autonomo.</li><li><b>Esc</b> non funziona dentro lo studio a schermo intero: usa il pulsante <b>Collapse</b> in alto.</li><li>Il disegno rischia di non finire mai: «Deve essere tua, non perfetta. Puoi finirla a casa».</li><li>Controlla in Backoffice che i link siano arrivati davvero, non solo che siano stati mostrati sullo schermo.</li></ul>'],
-                 ['⚙️','Aspetti tecnici','<ul><li>Il giorno prima, invia i link del launcher nella chat del gruppo e chiedi agli studenti di installarlo in anticipo.</li><li>Fai tu, in prima persona, tutto il percorso: skin su Sparks → pubblicazione → Skins → Wear → entrare nel mondo con il codice → teletrasporto sull’isola.</li><li>Codice del mondo: <b>Welcome to CraftForge</b> (scheda Play). Il comando di teletrasporto è nelle note per il tutor e nella scheda.</li><li>Compiti: finire la casa, mostrare uno screenshot all’assistente IA integrato nella scheda dei compiti e consegnare lo screenshot con una frase.</li></ul>']] },
+                 ['⚙️','Aspetti tecnici','<ul><li>Il giorno prima, invia i link del launcher nella chat del gruppo e chiedi agli studenti di installarlo in anticipo.</li><li>Fai tu, in prima persona, tutto il percorso: skin su Sparks → pubblicazione → Skins → Wear → entrare nel mondo con il codice → teletrasporto sull’isola.</li><li>Codice del mondo: <b>Welcome to CraftForge</b> (scheda Play). Il comando di teletrasporto è nelle note per il tutor e nella scheda.</li><li>Compiti: finire la casa, mostrare uno screenshot a Sparks AI, integrato nella scheda dei compiti e consegnare lo screenshot con una frase.</li></ul>']] },
         ]},
         { t:'callout', kind:'tip', e:'🗺️', html:'La prima nota per il tutor di ogni lezione contiene il piano completo: la sintesi, il risultato chiave, i tempi di ogni scheda, il tuo ruolo e i rischi. La Lezione 1 ha anche un video di preparazione. <b>Leggi tutte le note per il tutor prima della lezione.</b>' }
       ]},
@@ -147,7 +147,7 @@ COURSE.modules = [
       ]},
       { id:'launcher', e:'🟩', title:'Il Kodland Launcher', blocks:[
         { t:'p', html:'Gli studenti aprono Minecraft tramite il <b>Kodland Launcher</b>: scarica il gioco, apre il mondo del corso ed è il posto dove creano le skin e le indossano. Devi averlo installato e pronto sul tuo computer prima della tua prima lezione.' },
-        { t:'callout', kind:'warn', e:'🔑', html:'<b>Le tue credenziali:</b> per scaricare il launcher e accedere usi le <b>stesse credenziali di Kodland Sparks</b>. Te le fornisce il <b>reparto Operations o Teaching</b>. Gli studenti accedono con il proprio account Kodland — non ne serve uno nuovo.' },
+        { t:'callout', kind:'warn', e:'🔑', html:'<b>Le tue credenziali:</b> per scaricare il launcher non servono credenziali. Per accedere, invece, usi le <b>stesse credenziali di Kodland Sparks</b>, che ti fornisce il <b>reparto Operations o Teaching</b>. Gli studenti accedono con lo stesso account che usano sulla piattaforma Kodland — non ne serve uno nuovo.' },
         { t:'link', href:'https://portfolio.kodland.org/launcher/download#guide', e:'⬇️', title:'Pagina di download e guida ufficiale', small:'portfolio.kodland.org/launcher/download — Windows e Mac' },
         { t:'cards', cols:2, items:[
           ['🪟','Windows 10 / 11','<ol><li>Scarica il programma di installazione.</li><li>Apri il file scaricato.</li><li>Nella schermata blu di avviso, clicca su <b>More info → Run anyway</b>, poi segui l’installazione.</li></ol>'],
@@ -211,7 +211,7 @@ COURSE.modules = [
       ]},
       { id:'check', e:'✅', title:'Checklist tecnica per ogni lezione', blocks:[
         { t:'check', title:'✅ La mia checklist tecnica', groups:[
-          { h:'☑️ Prima della lezione', items:['Ho letto tutte le note per il tutor della lezione e ho guardato il video di preparazione.','Il mio launcher è installato, ho effettuato l’accesso e ho fatto personalmente il percorso della lezione.','Prima della Lezione 1, ho inviato i link del launcher nella chat del gruppo.'] },
+          { h:'☑️ Prima della lezione', items:['Ho letto tutte le note per il tutor della lezione e, per la Lezione 1, ho guardato il video di preparazione.','Il mio launcher è installato, ho effettuato l’accesso e ho fatto personalmente il percorso della lezione.','Prima della Lezione 1, ho inviato i link del launcher nella chat del gruppo.'] },
           { h:'🎬 Durante la lezione', items:['Ho fatto il controllo del collegamento e del launcher prima dei contenuti.','Nei primi minuti ho mostrato il risultato finale e l’obiettivo della lezione.'] },
           { h:'📤 Alla fine della lezione', items:['Ho protetto gli ultimi 7–10 minuti per pubblicare, mostrare i lavori e dare feedback.','Tutti hanno inviato il link al progetto pubblicato nella scheda della lezione.','Ho aperto alcuni link per controllare che funzionino.'] }
         ]}
@@ -242,9 +242,9 @@ COURSE.quiz = {
     { q:'Quando fai il controllo del collegamento e del launcher?',
       o:['All’inizio della lezione, prima dei contenuti, così il gioco si scarica mentre conosci il gruppo.','A metà lezione, quando gli studenti hanno bisogno di Minecraft.','Alla fine, così non toglie tempo alla lezione.'],
       a:0, e:'Prima dei contenuti: il gioco si scarica mentre conosci il gruppo.' },
-    { q:'Quali credenziali usi per scaricare il Kodland Launcher e accedere?',
+    { q:'Quali credenziali usi per accedere al Kodland Launcher?',
       o:['Un nuovo account che crei tu.','Le stesse credenziali di Kodland Sparks, fornite dal reparto Operations o Teaching.','L’account di uno studente.'],
-      a:1, e:'Il launcher usa le tue credenziali di Kodland Sparks, fornite dal reparto Operations o Teaching.' },
+      a:1, e:'Per scaricare il launcher non servono credenziali; per accedere usi le tue credenziali di Kodland Sparks, fornite dal reparto Operations o Teaching.' },
     { q:'Dove trova lo studente il link da inviare nella scheda della lezione?',
       o:['In un commento sotto il progetto.','Su Sparks: My projects → apri il progetto pubblicato → copia l’indirizzo dalla barra del browser.','Nel launcher, nella scheda Play.'],
       a:1, e:'Il link è l’indirizzo della pagina del progetto: My projects → il progetto pubblicato → la barra del browser.' },
